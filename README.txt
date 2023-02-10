@@ -33,6 +33,7 @@ BackEnd
 
 Usamos as seguintes versões:
 
+.Net Core - 6.0
 AutoMapper - 12.0.1
 Entity Framework Core - 7.0.2
 Microsoft Core SQL Server - 7.0.2
