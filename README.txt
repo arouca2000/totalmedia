@@ -19,6 +19,14 @@ Na pasta SERVICES temos o ficheiro Service.ts onde vemos os endpoints que serão
 Caso seja necessário, os endereções poderão ser alterados.
 
 
+Seguir os passos para instalação:
+
+node.js - https://nodejs.org/en/
+Na pasta do projeto - npm install -g @angular/cli
+material e cdk - na pasta do projeto - ng add @angular/material @angular/cdk
+
+
+ 
 
 BackEnd
 -------
