@@ -66,6 +66,7 @@ export class ApiService {
 
   private handleError<T> (operation = 'operation', result?: T) {
     return (error: any): Observable<T> => {
+      debugger;
       console.error(error);
       return of(result as T);
     };

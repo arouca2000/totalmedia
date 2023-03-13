@@ -38,6 +38,7 @@ export class CalculateComponent implements OnInit {
       this.isLoadingResults = false;
       this.countries = this.dataSource1;
     }, err => {
+      debugger;
       console.log(err);
       this.isLoadingResults = false;
       alert(err.error);
@@ -70,6 +71,7 @@ export class CalculateComponent implements OnInit {
       this.calculateForm.get('vatAmount')?.setValue(this.response.vatAmount);
       this.calculateForm.get('grossAmount')?.setValue(this.response.grossAmount);
     }, err => {
+      debugger;
       console.log(err);
       this.isLoadingResults = false;
       alert(err.error);
